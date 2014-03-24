@@ -1,0 +1,28 @@
+{
+  "name": "md-minify",
+  "version": "0.0.1",
+  "description": "Markdown Minification",
+  "preferGlobal": true,
+  "bin": {
+    "mdm": "lib/mdm.js"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "minify",
+    "markdown",
+    "readme",
+    "minification"
+  ],
+  "author": "Antonio Fernandes <afj176@gmail.com> (http://codeti.me/)",
+  "license": "MIT",
+  "dependencies": {
+    "q-io": "~1.11.0",
+    "chalk": "~0.4.0",
+    "underscore": "~1.6.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.18.0"
+  }
+}
