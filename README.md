@@ -5,7 +5,7 @@
 ```command line tool and requirable module```
 
 ```bash
-npm install mdm -g
+npm install md-minify -g
 ```
 
 ![alt "Markdown Minify"](http://f.cl.ly/items/30031C1i1p2Y400f1p0c/md-minify.gif "Markdown Minify")
@@ -47,7 +47,7 @@ mdm example-readme.md example-json.json
 
 ```javascript
 var express = require('express'),
-    mdm = require('mdm');
+    mdm = require('md-minify');
 
 
     mdm.read(__dirname + "/example-readme.md")

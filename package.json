@@ -1,6 +1,6 @@
 {
   "name": "md-minify",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Markdown Minification",
   "preferGlobal": true,
   "bin": {
